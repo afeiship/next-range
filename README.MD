@@ -3,6 +3,4 @@
 
 
 ## resources:
-
-## todos:
-- [ ] todo list..
++ https://github.com/jashkenas/underscore/blob/master/underscore.js#L717
