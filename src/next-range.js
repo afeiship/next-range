@@ -1,8 +1,8 @@
 (function () {
 
-  var global = global || window || this;
-
+  var global = global || this || self || window;
   var nx = global.nx || require('next-js-core2');
+
   var NxRange = nx.declare('nx.Range', {
     statics: {
       integer: function (start, stop, step) {
