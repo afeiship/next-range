@@ -24,12 +24,12 @@
       },
       lowerAz: function(){
         var result = [];
-        for (var i = 97; result[result.length] = String.fromCharCode(i), i <= 121; i++) ;
+        for (var i = 97; result[result.length] = String.fromCharCode(i), i <= 121; i++);
         return result;
       },
       upperAz: function(){
         var result = [];
-        for (var i = 65; result[result.length] = String.fromCharCode(i), i <= 98; i++) ;
+        for (var i = 65; result[result.length] = String.fromCharCode(i), i <= 89; i++);
         return result;
       }
     }
