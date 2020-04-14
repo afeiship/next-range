@@ -1,7 +1,6 @@
 (function () {
-
-  var global = global || this || self || window;
-  var nx = global.nx || require('next-js-core2');
+  var global = global || this || window || Function('return this')();
+  var nx = global.nx || require('@feizheng/next-js-core2');
 
   var NxRange = nx.declare('nx.Range', {
     statics: {
@@ -17,27 +16,25 @@
         var length = Math.max(Math.ceil((stop - start) / step), 0);
         var range = Array(length);
 
-        for (var idx = 0; idx < length; idx++, start += step) {
+        for (var idx = 0; idx <= length; idx++, start += step) {
           range[idx] = start;
         }
         return range;
       },
-      lowerAz: function(){
+      lowerAz: function () {
         var result = [];
-        for (var i = 97; result[result.length] = String.fromCharCode(i), i <= 121; i++);
+        for (var i = 97; (result[result.length] = String.fromCharCode(i)), i <= 121; i++);
         return result;
       },
-      upperAz: function(){
+      upperAz: function () {
         var result = [];
-        for (var i = 65; result[result.length] = String.fromCharCode(i), i <= 89; i++);
+        for (var i = 65; (result[result.length] = String.fromCharCode(i)), i <= 89; i++);
         return result;
       }
     }
   });
 
-
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = NxRange;
   }
-
-}());
+})();
