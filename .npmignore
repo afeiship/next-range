@@ -6,6 +6,7 @@ test
 __tests__
 src
 build
+docs
 gulpfile.js
 
 .editorconfig
@@ -14,7 +15,9 @@ Gemfile
 jest.config.js
 LICENSE.txt
 Rakefile
+express.js
 .vscode
+
 
 # vscode localhistory
 .history

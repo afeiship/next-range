@@ -11,16 +11,17 @@
 npm install -S @feizheng/next-range
 ```
 
+
 ## apis
 | api     | params            | description             |
 | ------- | ----------------- | ----------------------- |
-| integer | start, stop, step | Create integer by range |
+| range | start, stop, step | Create integer by range |
 
 ## usage
 ```js
-import NxRange from '@feizheng/next-range';
+import '@feizheng/next-range';
 
-nx.Range.integer(1,10);
+nx.range(1,10);
 
 // [1,2,3,4,5,6,7,8,9,10]
 ```
