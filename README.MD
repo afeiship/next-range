@@ -11,7 +11,6 @@
 npm install -S @feizheng/next-range
 ```
 
-
 ## apis
 | api     | params            | description             |
 | ------- | ----------------- | ----------------------- |
