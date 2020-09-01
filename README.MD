@@ -20,7 +20,7 @@ npm install -S @feizheng/next-range
 ```js
 import NxRange from '@feizheng/next-range';
 
-nx.Range(1,10);
+nx.Range.integer(1,10);
 
 // [1,2,3,4,5,6,7,8,9,10]
 ```

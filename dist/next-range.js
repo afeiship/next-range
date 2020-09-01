@@ -2,8 +2,8 @@
  * name: @feizheng/next-range
  * description: Range array with step for javascript.
  * homepage: https://github.com/afeiship/next-range
- * version: 1.0.1
- * date: 2020-09-01T07:38:56.647Z
+ * version: 1.0.2
+ * date: 2020-09-01T07:41:49.835Z
  * license: MIT
  */
 
