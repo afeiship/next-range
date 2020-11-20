@@ -3,7 +3,7 @@
  * description: Range array with step for javascript.
  * homepage: https://github.com/afeiship/next-range
  * version: 1.0.0
- * date: 2020-11-20 13:13:43
+ * date: 2020-11-20 13:14:22
  * license: MIT
  */
 
