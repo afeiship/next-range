@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-range
+ * name: @jswork/next-range
  * description: Range array with step for javascript.
  * homepage: https://github.com/afeiship/next-range
- * version: 2.0.0
- * date: 2020-09-01T07:54:29.901Z
+ * version: 1.0.0
+ * date: 2020-11-20 13:13:43
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.range = function (start, stop, step) {
     if (stop == null) {
